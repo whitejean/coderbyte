@@ -1,0 +1,15 @@
+def Palindrome(str)
+
+  # code goes here
+  result = true
+  if str.reverse == str
+    result = true
+  else
+    result = false
+    return result
+  end      
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+Palindrome(STDIN.gets)           
