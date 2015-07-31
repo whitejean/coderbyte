@@ -1,0 +1,17 @@
+def ExOh(str)
+
+  # code goes here
+  
+  f = str.count "x"
+  t = str.count "o"
+  if f==t
+    return true
+  end
+    return false
+    
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+ExOh(STDIN.gets)           
